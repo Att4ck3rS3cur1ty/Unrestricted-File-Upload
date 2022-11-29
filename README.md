@@ -6,7 +6,7 @@ Repo to help security enthusiasts while testing against unrestricted file upload
 This module aims to reproduce a webshell creation attempt by an attacker.
 It has the following levels of filter evasion:
 
-| Level | README |
+| Level | Description |
 | ------ | ------ |
 | 1 | [Change the capitalisation of the extension][level-1] |
 | 2 | [Change the extensions to a less common extension + Using special trailing characters such as spaces, dots or null characters][level-2] |
